@@ -134,6 +134,8 @@ B树是一种特殊的多路树，它拥有以下差异性的特征：
 
 ![image-20211211154802491](/images/data-structures-tree/image-20211211154802491.png)
 
+***在线动图演示：***[B-Tree Visualization (usfca.edu)](https://www.cs.usfca.edu/~galles/visualization/BTree.html)
+
 ### B+ Tree B+树
 
 B+ Tree解决了B-Tree通过存储数据指针来索引的弊端，改为只在叶子节点存储数据指针，它的特性如下：
@@ -156,3 +158,5 @@ B+Tree更适用于硬盘存储
 
 - 节点能存储很多的key，一次访问可以加载更多到内存或者缓存中；
 - 内部节点只有key没有data，只有叶子节点才存储key和data，可以加载更多的节点数据到内存；
+
+***在线动图演示：***[B+ Tree Visualization (usfca.edu)](https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html)

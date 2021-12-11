@@ -58,19 +58,19 @@ typora-root-url: ../../source
 
 - 单次左旋转（LL Rotation）：应用于右侧节点的高度大于左侧子节点的高度时，且右侧子节点也是平衡或者右侧较重的；
 
-  ![AVL Tree LL Rotation](/images/data-structures-tree/LL Rotation.png)
+  ![AVL Tree LL Rotation](/images/data-structures-tree/LL_Rotation.png)
 
 - 单次右旋转（RR Rotation），应用于左侧节点的高度大于右侧子节点的高度时，且左侧子节点也是平衡或者左侧较重的；
 
-  ![AVL Tree RR Rotation](/images/data-structures-tree/RR Rotation.png)
+  ![AVL Tree RR Rotation](/images/data-structures-tree/RR_Rotation.png)
 
 - 左右旋转（LR Rotation）：应用于左侧子节点的高度大于右侧子节点的高度，并且左侧子节点右侧较重。
 
-  ![AVL Tree LR Rotation](/images/data-structures-tree/LR Rotation.png)
+  ![AVL Tree LR Rotation](/images/data-structures-tree/LR_Rotation.png)
 
 - 右左旋转（RL Rotation）：应用于右侧子节点的高度大于左侧子节点的高度，并且右侧子节点左侧较重。
 
-![AVL Tree RL Rotation](/images/data-structures-tree/RL Rotation.png)
+![AVL Tree RL Rotation](/images/data-structures-tree/RL_Rotation.png)
 
 平衡二叉树的搜索时间复杂度为$O(log N)$，变更(删除/插入)时间复杂度也为$O(log N)$；
 

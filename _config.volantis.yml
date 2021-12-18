@@ -208,3 +208,5 @@ comments:
   title: <i class='fas fa-comments'></i> 评论
   subtitle:
   service: giscus # giscus, beaudar, utterances, valine, twikoo, waline, minivaline, disqus, disqusjs, gitalk, vssue, livere, isso, hashover
+  disqus:
+    shortname: Jaxon-Wei/jaxon-wei.github.io

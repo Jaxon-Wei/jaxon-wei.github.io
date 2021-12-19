@@ -1,8 +1,11 @@
 ---
 title: 数据结构的那些树
 date: 2021-11-05 01:06:50
-tags: [tree, 数据结构]
-categories: [基础技术]
+tags: 
+- tree
+- 数据结构
+categories: 
+- 基础技术
 typora-root-url: ../../source
 ---
 

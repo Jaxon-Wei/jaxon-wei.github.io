@@ -3,18 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 铅笔记
-subtitle: 'dddd'
-description: 'ddd'
-keywords: test
+title: Jaxon的随手杂记
+subtitle: ''
+description: ''
+keywords:
 author: Jaxon
-language: zh-CN
-#language: en
+language: zh_cn
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://jaxon-wei.github.io/
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -23,8 +22,7 @@ pretty_urls:
 
 # Directory
 source_dir: source
-#public_dir: public
-public_dir: docs
+public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -99,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

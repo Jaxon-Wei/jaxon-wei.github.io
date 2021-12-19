@@ -3,9 +3,9 @@ title: 数据结构的那些树
 date: 2021-11-05 01:06:50
 tags: 
 - tree
-- 数据结构
+- data-structure
 categories: 
-- 基础技术
+- coding
 typora-root-url: ../../source
 ---
 

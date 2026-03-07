@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Jaxon Wei
+title: Hexo
 subtitle: ''
-description: 'A Collection of Random Thoughts: No Rules, Just Writing'
+description: ''
 keywords:
-author: Jaxon
+author: John Doe
 language: en
 timezone: ''
 
@@ -43,7 +43,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: prismjs
+syntax_highlighter: highlight.js
 highlight:
   line_number: true
   auto_detect: false
@@ -51,9 +51,9 @@ highlight:
   wrap: true
   hljs: false
 prismjs:
-  preprocess: false
-  line_number: false
-  line_threshold: 0
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: sea
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

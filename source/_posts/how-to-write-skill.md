@@ -1,10 +1,14 @@
 ---
 title: How to write skill
 date: 2026-03-07 13:54:00
-tags: Ai,学习笔记
-categories: Ai
-description: Skill是AI Agent的能力扩展机制，包含了prompt（包括指令、流程、知识库）、MCP的工具集。这里简单记录了如何去写一个好的skill。
+tags: 
+- Ai
+- 学习笔记
+categories: 
+- Ai
+excerpt: Skill是AI Agent的能力扩展机制，包含了prompt（包括指令、流程、知识库）、MCP的工具集。这里简单记录了如何去写一个好的skill。
 ---
+
 Skill是Ai Agent的能力扩展机制，包含了prompt（包括指令、流程、知识库）、MCP的工具集。这里简单记录了如何去写一个好的skill。
 
 >⚠ 不同的Ai Agent的skill扩展机制不一样，细节差别请参考官方文档；

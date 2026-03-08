@@ -1,5 +1,5 @@
 ---
-title: about
+title: About
 date: 2026-03-06 22:13:39
 ---
 # test

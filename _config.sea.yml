@@ -5,8 +5,8 @@ menu:
     url: /tags/
   - name: Archives
     url: /archives/
-  - name: About # 名称
-    url: /about/ # 跳转链接
+  #- name: About # 名称
+  #  url: /about/ # 跳转链接
 home:
   #hero:
   #  name: #Jaxon

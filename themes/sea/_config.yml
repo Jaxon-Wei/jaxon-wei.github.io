@@ -14,14 +14,19 @@ articles:
 
 # 菜单栏
 menu:
-  # - name: 归档
-  #   url: /archives/
+  - name: Categories
+    url: /categories/
+  - name: Tags
+    url: /tags/
+  - name: Archives
+    url: /archives/
+  - name: AboutMe
+    url: /about/
   # - name: 友链
   #   url: /friends/
   # - name: 留言
   #   url: /messages/
-  # - name: 关于
-  #   url: /about/
+
 
 comment:
   enable: false

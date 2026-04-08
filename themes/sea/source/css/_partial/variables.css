@@ -73,7 +73,7 @@ html[theme=dark] {
 
 :root {
   --sea-main-width: 95%;
-  --sea-main-max-width: 1200px;
+  --sea-main-max-width: 1536px;
   --sea-nav-height: 85px;
 }
 

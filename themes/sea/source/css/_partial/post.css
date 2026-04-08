@@ -1,10 +1,30 @@
+.sea-doc {
+  display: flex; /* 1. 激活 Flexbox */
+  gap: 20px; 
+}
+
 .sea-article-content {
   word-break: break-word;
-  margin-top: 1.5rem;
+  flex: 1;  /* 自适应填充剩余空间 */
+}
+
+.sea-article-catalog {
+  min-width:200px; /* 固定宽度 */
+  padding: 4px 10px;
+  flex-grow: 0; /*  不增长。*/
+  flex-shrink: 0; /*  不收缩（这是防止宽度被压缩的关键）*/
+}
+
+.sea-article-header .sea-post-tags a,
+.sea-article-header .sea-post-categories a {
+    color: var(--sea-color-gray);
+}
+
+.sea-article-content h1.sea-article-title {
+  font-size: 2rem;
 }
 
 .sea-article-title {
-  font-size: 1.75rem;
   text-align: center;
 }
 
@@ -44,6 +64,7 @@
 .sea-article-catalog-title {
   display: flex;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .sea-article-catalog-title .sea-svg-icon {
@@ -58,7 +79,6 @@
 }
 
 .sea-article-catalog > .toc {
-  display: none;
 }
 
 .sea-article-catalog > .toc.sea-article-catalog-show {
@@ -67,8 +87,8 @@
 
 .sea-article-catalog .toc,
 .sea-article-catalog .toc-child {
-  list-style-type: disc;
-  padding-left: 1.8rem;
+  list-style-type: none;
+  padding-left: 1rem;
 }
 
 .sea-article-catalog .toc-number {

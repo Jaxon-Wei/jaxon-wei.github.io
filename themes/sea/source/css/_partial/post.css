@@ -9,10 +9,21 @@
 }
 
 .sea-article-catalog {
-  min-width:200px; /* 固定宽度 */
+  flex: 0 0 250px; /* 不放大、不缩小、固定宽度为250px */
   padding: 4px 10px;
-  flex-grow: 0; /*  不增长。*/
-  flex-shrink: 0; /*  不收缩（这是防止宽度被压缩的关键）*/
+}
+
+
+/* 当屏幕宽度小于 1024px 时应用以下样式 */
+@media (max-width: 1024px) {
+  .sea-doc {
+    flex-direction: column; /* 将主轴方向改为垂直，实现上下堆叠 */
+  }
+  
+  .sea-article-content, .sea-article-catalog {
+    width: 100%; /* 让两栏在移动端都占满整行宽度 */
+    box-sizing: border-box; /* 确保padding不会撑破宽度 */
+  }
 }
 
 .sea-article-header .sea-post-tags a,

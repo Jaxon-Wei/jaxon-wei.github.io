@@ -91,4 +91,4 @@ primaryColor: '#10b981'
 # 留空则使用默认等宽字体
 fontFamily: #
 
-favicon: # Favicon 图标
+favicon: /favicon.ico # Favicon 图标
